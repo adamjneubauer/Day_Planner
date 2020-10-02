@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Day Planner</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+      <!-- Timeblocks go here -->
+        <div class="row">
+            <div class="col-2 dayplanner-time text-right border-top border-bottom">
+                9AM
+            </div>
+            <div class="col-9 border textarea"  id="nineAM">
+                <textarea id="nineAMtext" > </textarea>
+            </div>
+            <div class="col-1 adder">
+                <button class="btn btn-block btn-info" id="save-9">Add</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 dayplanner-time text-right border-top border-bottom">
+               <br> 10AM
+            </div>
+            <div class="col-9 border textarea" id="tenAM">
+                <textarea ></textarea>
+            </div>
+            <div class="col-1 adder">
+                <button class="btn btn-block btn-info">Add</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 dayplanner-time text-right border-top border-bottom">
+                <br> 11AM
+            </div>
+            <div class="col-9 border textarea" id="elevenAM">
+                <textarea ></textarea>
+            </div>
+            <div class="col-1 adder">
+                <button class="btn btn-block btn-info">Add</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 dayplanner-time text-right border-top border-bottom">
+                <br> 12PM
+            </div>
+            <div class="col-9 border textarea" id="twelvePM">
+                <textarea ></textarea>
+            </div>
+            <div class="col-1 adder">
+                <button class="btn btn-block btn-info">Add</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 dayplanner-time text-right border-top border-bottom">
+                <br> 1PM
+            </div>
+            <div class="col-9 border textarea" id="onePM">
+                <textarea ></textarea>
+            </div>
+            <div class="col-1 adder">
+                <button class="btn btn-block btn-info">Add</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 dayplanner-time text-right border-top border-bottom">
+                <br> 2PM
+            </div>
+            <div class="col-9 border textarea" id="twoPM">
+                <textarea ></textarea>
+            </div>
+            <div class="col-1 adder">
+                <button class="btn btn-block btn-info">Add</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 dayplanner-time text-right border-top border-bottom">
+                <br>  3PM
+            </div>
+            <div class="col-9 border textarea" id="threePM">
+                <textarea ></textarea>
+            </div>
+            <div class="col-1 adder">
+                <button class="btn btn-block btn-info">Add</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 dayplanner-time text-right border-top border-bottom">
+                <br> 4PM
+            </div>
+            <div class="col-9 border textarea" id="fourPM">
+                <textarea ></textarea>
+            </div>
+            <div class="col-1 adder">
+                <button class="btn btn-block btn-info">Add</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 dayplanner-time text-right border-top border-bottom">
+                <br>  5PM
+            </div>
+            <div class="col-9 border textarea" id="fivePM">
+                <textarea ></textarea>
+            </div>
+            <div class="col-1 adder">
+                <button class="btn btn-block btn-info">Add</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
